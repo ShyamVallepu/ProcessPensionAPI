@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GenC_Honors_Project_Main\\ProcessPensionTest\\ProcessPensionTest.csproj": {}
+  },
+  "projects": {
+    "C:\\GenC_Honors_Project_Main\\ProcessPensionTest\\ProcessPensionTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GenC_Honors_Project_Main\\ProcessPensionTest\\ProcessPensionTest.csproj",
+        "projectName": "ProcessPensionTest",
+        "projectPath": "C:\\GenC_Honors_Project_Main\\ProcessPensionTest\\ProcessPensionTest.csproj",
+        "packagesPath": "C:\\Users\\Shyam Sekhar\\.nuget\\packages\\",
+        "outputPath": "C:\\GenC_Honors_Project_Main\\ProcessPensionTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shyam Sekhar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\GenC_Honors_Project_Main\\Process-Pension-Microservice-master-master\\ProcessPension.csproj": {
+                "projectPath": "C:\\GenC_Honors_Project_Main\\Process-Pension-Microservice-master-master\\ProcessPension.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.7, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
