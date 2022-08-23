@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Process-Pension-Microservice-master-master\ProcessPension.csproj" />
+    <ProjectReference Include="..\Process-Pension\ProcessPension.csproj" />
   </ItemGroup>
 
 </Project>
